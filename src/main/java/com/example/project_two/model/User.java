@@ -6,7 +6,7 @@ import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 
 @Entity
-@Table(name = "usersname")
+@Table(name = "USERSNAME")
 public class User {
     @Id
     @Column(name = "id", nullable = false, unique = true)

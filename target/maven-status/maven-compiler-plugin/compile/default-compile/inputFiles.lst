@@ -1,0 +1,7 @@
+/home/netusers/eihleralexey/Document/java/SpringRESTProject/src/main/java/com/example/project_two/model/User.java
+/home/netusers/eihleralexey/Document/java/SpringRESTProject/src/main/java/com/example/project_two/service/UserServiceInterface.java
+/home/netusers/eihleralexey/Document/java/SpringRESTProject/src/main/java/com/example/project_two/controller/UserController.java
+/home/netusers/eihleralexey/Document/java/SpringRESTProject/src/main/java/com/example/project_two/DTO/UserDTO.java
+/home/netusers/eihleralexey/Document/java/SpringRESTProject/src/main/java/com/example/project_two/JpaRepository/UserRepository.java
+/home/netusers/eihleralexey/Document/java/SpringRESTProject/src/main/java/com/example/project_two/DemoApplication.java
+/home/netusers/eihleralexey/Document/java/SpringRESTProject/src/main/java/com/example/project_two/service/UserService.java

@@ -14,34 +14,21 @@ public class UserController {
 
 
 
+    final
+    UserService userService;
 
-    UserService userService = new UserService();
-//    @Autowired
-//    private UserRepository userRepository;
+    @Autowired
+    public UserController(UserService userService) {
+        this.userService = userService;
+    }
 
-//    @GetMapping
-//    public List<User> findAllUsers() {
-//        // Implement
-//        return null;
-//    }
-//
-//    @GetMapping("/{id}")
-//    public ResponseEntity<User> findUserById(@PathVariable(value = "id") long id) {
-//        // Implement
-//        return null;
-//    }
-//
+
     @PostMapping(path = "/save", consumes = "application/json", produces = "application/json")
     public UserDTO saveUser(@Validated @RequestBody UserDTO userDTO) {
-        UserDTO us = new UserDTO();
+
         userService.save(userDTO);
-//        us.setId(userDTO.getId());
-//        us.setName(userDTO.getName());
-//
-//        // Implement
-        System.out.println("What...");
-//        System.out.println(us.getId());
-        return us;
+
+        return userDTO;
     }
     @GetMapping("/")
     public String findUserById() {

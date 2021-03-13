@@ -1,6 +1,0 @@
-<component name="DependencyValidationManager">
-  <state>
-    <unnamed_scope value="lib:javax.persistence.GenerationType" />
-    <unnamed_scope value="src:filmography.model.Film" />
-  </state>
-</component>
